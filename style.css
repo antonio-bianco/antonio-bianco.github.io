@@ -584,7 +584,8 @@ background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/055d1
     right: 0;
     width: 100%;
     height: 4px;
-    left: 40%;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .prj-1{
     background-size: 212% 135%;
@@ -614,7 +615,8 @@ background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/055d1
     right: 0;
     width: 100%;
     height: 4px;
-    left: 40%;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .project-box h3 {
     left: -89px;
