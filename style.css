@@ -5,6 +5,160 @@ html, body{
    -moz-osx-font-smoothing: grayscale;
    font-size: 14px;
 }
+
+
+.bar-l .link-text,
+.bar-l:hover .link-text-hover {
+  -webkit-transition: transform 450ms cubic-bezier(.77, 0, .175, 1) 450ms
+}
+
+.hn-social {
+  position: fixed;
+  z-index:10;
+  left: 15px;
+  bottom: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -webkit-transform: rotate(-90deg) translate(0, 100%);
+  -ms-transform: rotate(-90deg) translate(0, 100%);
+  transform: rotate(-90deg) translate(0, 100%)
+}
+
+.bar-l,
+.hn-social li {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block
+}
+
+.hn-social li {
+  height: 100%;
+  line-hefight: 80px;
+  font-size: .6em;
+  font-weight: 700
+}
+
+.bar-l {
+  overflow: hidden;
+  padding-left: 15px;
+  font-weight: 500;
+  font-size: .714rem;
+  z-index: 103;
+}
+
+.bar-l .link-text {
+  font-family: 'Ubuntu', sans-serif;
+  display: inline-block;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  transition: transform 450ms cubic-bezier(.77, 0, .175, 1) 450ms
+}
+
+.bar-l .link-text-close,
+.bar-l .link-text-hover {
+  font-family: 'Ubuntu', sans-serif;
+  background: -webkit-linear-gradient(#7666a4, #dd9788);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  position: absolute;
+  left: 15px;
+  top: 0;
+  right: 0;
+  height: 100%;
+  -webkit-transform: translate3d(0, 101%, 0);
+  transform: translate3d(0, 101%, 0);
+  -webkit-transition: transform 450ms cubic-bezier(.77, 0, .175, 1);
+  transition: transform 450ms cubic-bezier(.77, 0, .175, 1)
+}
+
+.bar-l:after,
+.bar-l:before {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 50%;
+  height: 1px;
+  margin-top: -1px;
+  z-index: 10
+}
+
+.bar-l:hover .link-text {
+  -webkit-transform: translate3d(0, -101%, 0);
+  transform: translate3d(0, -101%, 0);
+  -webkit-transition: transform 450ms cubic-bezier(.77, 0, .175, 1);
+  transition: transform 450ms cubic-bezier(.77, 0, .175, 1)
+}
+
+.bar-l:hover .link-text-hover {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  transition: transform 450ms cubic-bezier(.77, 0, .175, 1) 450ms
+}
+
+.bar-l.hovered:before,
+.bar-l:hover:before {
+  -webkit-transform: translateX(101%);
+  -ms-transform: translateX(101%);
+  transform: translateX(101%)
+}
+
+.bar-l.hovered:after,
+.bar-l:hover:after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition: transform 450ms cubic-bezier(.77, 0, .175, 1) 450ms;
+  transition: transform 450ms cubic-bezier(.77, 0, .175, 1) 450ms
+}
+
+.bar-l:before {
+  right: 0;
+  margin-left: 5px;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: transform .9s cubic-bezier(.77, 0, .175, 1);
+  transition: transform .9s cubic-bezier(.77, 0, .175, 1)
+}
+
+.bar-l:after {
+  width: 5px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition: transform 450ms cubic-bezier(.77, 0, .175, 1);
+  transition: transform 450ms cubic-bezier(.77, 0, .175, 1)
+}
+
+.bar-l:after,
+.bar-l:before {
+  background-color: #000
+}
+
+.hn-social ul {
+  list-style: none;
+  width: 100%;
+  text-align: center
+}
+
+.hn-social ul li {
+  padding: 20px 0;
+  font-size: 1.6em
+}
+
+
+
 .txt{
   font-family: 'Kaushan Script', cursive;a
 }
