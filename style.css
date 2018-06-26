@@ -522,6 +522,21 @@ section {
   bottom: 0;
   z-index:1;
 }
+.prj-1{
+background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/055d1f64774909.5adddec62832a.jpg);
+  background-size: 140% 168%;
+  background-position: 50% 76%;
+}
+.prj-2{
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/3e5da860125421.5a3ccd13ae551.jpg);
+  background-size: 172% 170%;
+  background-position: 54% 38%;
+}
+.prj-3{
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/c5dd0659142007.5a16ab1f18935.png);
+  background-size: 142% 140%;
+  background-position: 50% 15%;
+}
 @keyframes rotate-shape {
     0% {
         transform: rotate(0deg)
@@ -529,4 +544,54 @@ section {
     100% {
         transform: rotate(360deg)
     }
+}
+@media (min-width: 1281px) {
+  
+  
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+}
+@media (min-width: 481px) and (max-width: 767px) {
+.project-box h3 {
+    left: -100px;
+}
+   .prj-1{
+    background-size: 212% 135%;
+    background-position: 50% 105%;
+}
+.prj-2{
+ background-size: 212% 135%;
+ background-position: 52% 50%;
+}
+.prj-3{
+ background-size: 183% 116%;
+    background-position: 50% 5%;
+}
+}
+@media (min-width: 320px) and (max-width: 480px) {
+.project-box h3 {
+    left: -100px;
+}
+ .prj-1{
+    background-size: 212% 135%;
+    background-position: 50% 105%;
+}
+.prj-2{
+ background-size: 212% 135%;
+ background-position: 52% 50%;
+}
+.prj-3{
+background-size: 183% 116%;
+    background-position: 50% 5%;
+}
 }
