@@ -480,9 +480,9 @@ section {
   z-index:1;
 }
 .prj-1{
-    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/055d1f64774909.5adddec62832a.jpg);
-    background-size: 140% 168%;
-    background-position: 50% 76%;
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/440ba064774909.5adddec627e93.jpg);
+  background-size: 100%;
+  background-position: bottom;
 }
 .prj-2{
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/3e5da860125421.5a3ccd13ae551.jpg);
