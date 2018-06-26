@@ -491,8 +491,8 @@ section {
 }
 .prj-3{
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/c5dd0659142007.5a16ab1f18935.png);
-  background-size: 142% 140%;
-  background-position: 50% 15%;
+  background-size: 100%;
+  background-position: top;
 }
 @-webkit-keyframes box-h3 {
     from { transform: translate(0%, -50%); opacity:0;}
