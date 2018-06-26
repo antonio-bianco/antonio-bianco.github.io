@@ -573,13 +573,20 @@ background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/055d1
 .project-box h3 {
     left: -89px;
 }
-  .see-more {
-    left: 370px;
+.see-more {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
 }
-  .see-more:before {
-    right: 30px;
+.see-more:before {
+    bottom: -18px;
+    right: 0;
+    width: 100%;
+    height: 4px;
+    left: 40%;
 }
-   .prj-1{
+.prj-1{
     background-size: 212% 135%;
     background-position: 50% 105%;
 }
@@ -593,14 +600,21 @@ background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/055d1
 }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-  .hello{
-        font-size: 7rem;
-  }
-  .see-more {
-    left: 370px;
+.hello{
+    font-size: 7rem;
 }
-    .see-more:before {
-    right: 30px;
+.see-more {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.see-more:before {
+    bottom: -18px;
+    right: 0;
+    width: 100%;
+    height: 4px;
+    left: 40%;
 }
 .project-box h3 {
     left: -89px;
