@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 html, body{
    background-image: linear-gradient(to left bottom, #2b2b2b, #222222, #191919, #0f0f0f, #000000);
-    font-family: sans-serif;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 14px;
+   font-family: sans-serif;
+   -moz-osx-font-smoothing: grayscale;
+   font-size: 14px;
 }
 .txt{
   font-family: 'Kaushan Script', cursive;
@@ -24,18 +24,18 @@ html, body{
 }
 .filter-box{
   background: #0000008f;
-    width: 100%;
-    height: 465px;
-    position: relative;
-    top: 0;
+  width: 100%;
+  height: 465px;
+  position: relative;
+  top: 0;
 }
 .text-animated{
    -webkit-animation: box-h3 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.4s;
-    animation: box-h3 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.4s;
+   animation: box-h3 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.4s;
 }
 .text-noanimated{
    -webkit-animation: box-h3-out 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.4s;
-    animation: box-h3-out 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.4s;
+   animation: box-h3-out 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.4s;
 }
 .see-more{
     position: absolute;
@@ -46,64 +46,27 @@ html, body{
 }
 .img-animated{
   transform:scaleX(0.8) scaleY(0.8) scaleZ(0.8);
-     -webkit-animation: project-img 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.1s;
-    animation: project-img 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.1s;
+  -webkit-animation: project-img 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.1s;
+  animation: project-img 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.1s;
 }
 .img-noanimated{
   transform:scaleX(1) scaleY(1) scaleZ(1);
-   -webkit-animation: project-img-out 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.1s;
-    animation: project-img-out 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.1s;
+  -webkit-animation: project-img-out 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.1s;
+  animation: project-img-out 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.1s;
 }
 .see-animated{
-      -webkit-animation: see-more 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.4s;
-    animation: see-more 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.4s;
+  -webkit-animation: see-more 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.4s;
+  animation: see-more 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.4s;
 }
-@-webkit-keyframes box-h3 {
-	from { transform: translate(0%, -50%); opacity:0;}
-	to { transform: translate(20%, -50%); opacity:1;}
-}
-@-webkit-keyframes box-h3-out {
-  from { transform: translate(20%, -50%); opacity:1;}
-	to { transform: translate(0%, -50%); opacity:0;}
-}
-@-webkit-keyframes see-more {
-	from {right: -80px; opacity:0;}
-	to {right: -30px; opacity:1;}
-}
-@-webkit-keyframes see-more-b {
-	from {width: 0px;}
-	to {width: 100px;}
-}
-@-webkit-keyframes project-img {
-	from {transform:scaleX(0.8) scaleY(0.8) scaleZ(0.8);}
-	to {transform:scaleX(1) scaleY(1) scaleZ(1);}
-}
-@-webkit-keyframes project-img-out {
-	from {transform:scaleX(1) scaleY(1) scaleZ(1);}
-	to {transform:scaleX(0.8) scaleY(0.8) scaleZ(0.8);}
-}
-/*
-@-moz-keyframes see-more {
-	from {right: -30px;}
-	to {right: -80px;}
-}
-@-o-keyframes see-more {
-	from {right: -30px;}
-	to {right: -80px;}
-}
-@keyframes see-more {
-	from {right: -30px;}
-	to {right: -80px;}
-}*/
 .see-more:before{
-content: "";
+    content: "";
     position: absolute;
     bottom: -18px;
     right: -14px;
     width: 0px;
     height: 4px;
     background: white;
-  -webkit-animation: see-more-b 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.8s;
+    -webkit-animation: see-more-b 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.8s;
     animation: see-more-b 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards 0.8s;
 }
 .hello{
@@ -308,17 +271,6 @@ content: "";
 .is_subpages .grid-hr-top .js-hr-b, .is_subpages .grid-hr-mid .js-hr-b, .is_subpages .grid-hr-bottom .js-hr-b {
     transform: translate(0%,0);
     transition: transform 0.6s;
-}
-
-@keyframes rotate-shape {
-    0% {
-        transform: rotate(0deg)
-    }
-    100% {
-        transform: rotate(360deg)
-    }
-}body{
-   background-image: linear-gradient(to left bottom, #2b2b2b, #222222, #191919, #0f0f0f, #000000);
 }
 .full-height{
     min-height: 100vh;
@@ -528,9 +480,9 @@ section {
   z-index:1;
 }
 .prj-1{
-background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/055d1f64774909.5adddec62832a.jpg);
-  background-size: 140% 168%;
-  background-position: 50% 76%;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/055d1f64774909.5adddec62832a.jpg);
+    background-size: 140% 168%;
+    background-position: 50% 76%;
 }
 .prj-2{
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/3e5da860125421.5a3ccd13ae551.jpg);
@@ -542,95 +494,184 @@ background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/055d1
   background-size: 142% 140%;
   background-position: 50% 15%;
 }
-@keyframes rotate-shape {
-    0% {
-        transform: rotate(0deg)
-    }
-    100% {
-        transform: rotate(360deg)
-    }
+@-webkit-keyframes box-h3 {
+    from { transform: translate(0%, -50%); opacity:0;}
+    to { transform: translate(20%, -50%); opacity:1;}
+}
+@-moz-keyframes box-h3 {
+    from { transform: translate(0%, -50%); opacity:0;}
+    to { transform: translate(20%, -50%); opacity:1;}
+}
+@-o-keyframes box-h3 {
+    from { transform: translate(0%, -50%); opacity:0;}
+    to { transform: translate(20%, -50%); opacity:1;}
+}
+@keyframes box-h3 {
+    from { transform: translate(0%, -50%); opacity:0;}
+    to { transform: translate(20%, -50%); opacity:1;}
+}
+@-webkit-keyframes box-h3-out {
+  from { transform: translate(20%, -50%); opacity:1;}
+  to { transform: translate(0%, -50%); opacity:0;}
+}
+@-moz-keyframes box-h3-out {
+    from { transform: translate(20%, -50%); opacity:1;}
+    to { transform: translate(0%, -50%); opacity:0;}
+}
+@-o-keyframes box-h3-out {
+    from { transform: translate(20%, -50%); opacity:1;}
+    to { transform: translate(0%, -50%); opacity:0;}
+}
+@keyframes box-h3-out {
+    from { transform: translate(20%, -50%); opacity:1;}
+    to { transform: translate(0%, -50%); opacity:0;}
+}
+@-webkit-keyframes see-more {
+    from {right: -80px; opacity:0;}
+    to {right: -30px; opacity:1;}
+}
+@-moz-keyframes see-more {
+    from {right: -80px; opacity:0;}
+    to {right: -30px; opacity:1;}
+}
+@-o-keyframes see-more {
+    from {right: -80px; opacity:0;}
+    to {right: -30px; opacity:1;}
+}
+@keyframes see-more {
+    from {right: -80px; opacity:0;}
+    to {right: -30px; opacity:1;}
+}
+@-webkit-keyframes see-more-b {
+    from {width: 0px;}
+    to {width: 100px;}
+}
+@-moz-keyframes see-more-b {
+    from {width: 0px;}
+    to {width: 100px;}
+}
+@-o-keyframes see-more-b {
+    from {width: 0px;}
+    to {width: 100px;}
+}
+@keyframes see-more-b {
+    from {width: 0px;}
+    to {width: 100px;}
+}
+@-webkit-keyframes project-img {
+    from {transform:scaleX(0.8) scaleY(0.8) scaleZ(0.8);}
+    to {transform:scaleX(1) scaleY(1) scaleZ(1);}
+}
+@-moz-keyframes project-img {
+    from {transform:scaleX(0.8) scaleY(0.8) scaleZ(0.8);}
+    to {transform:scaleX(1) scaleY(1) scaleZ(1);}
+}
+@-o-keyframes project-img {
+    from {transform:scaleX(0.8) scaleY(0.8) scaleZ(0.8);}
+    to {transform:scaleX(1) scaleY(1) scaleZ(1);}
+}
+@keyframes project-img {
+    from {transform:scaleX(0.8) scaleY(0.8) scaleZ(0.8);}
+    to {transform:scaleX(1) scaleY(1) scaleZ(1);}
+}
+@-webkit-keyframes project-img-out {
+    from {transform:scaleX(1) scaleY(1) scaleZ(1);}
+    to {transform:scaleX(0.8) scaleY(0.8) scaleZ(0.8);}
+}
+
+@-moz-keyframes project-img-out {
+    from {transform:scaleX(1) scaleY(1) scaleZ(1);}
+    to {transform:scaleX(0.8) scaleY(0.8) scaleZ(0.8);}
+}
+@-o-keyframes project-img-out {
+    from {transform:scaleX(1) scaleY(1) scaleZ(1);}
+    to {transform:scaleX(0.8) scaleY(0.8) scaleZ(0.8);}
+}
+@keyframes project-img-out {
+    from {transform:scaleX(1) scaleY(1) scaleZ(1);}
+    to {transform:scaleX(0.8) scaleY(0.8) scaleZ(0.8);}
 }
 @media (min-width: 1281px) {
-  
-  
+
+
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
-  
+
+
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  
-  
+
+
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  
+
+
 }
 @media (min-width: 481px) and (max-width: 767px) {
     .hello{
         font-size: 7rem;
-  }
-.project-box h3 {
-    left: -89px;
-}
-.see-more {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-}
-.see-more:before {
-    bottom: -18px;
-    right: 0;
-    width: 100%;
-    height: 4px;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-.prj-1{
-    background-size: 212% 135%;
-    background-position: 50% 105%;
-}
-.prj-2{
- background-size: 212% 135%;
- background-position: 52% 50%;
-}
-.prj-3{
- background-size: 183% 116%;
-    background-position: 50% 5%;
-}
+    }
+    .project-box h3 {
+        left: -89px;
+    }
+    .see-more {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+    }
+    .see-more:before {
+        bottom: -18px;
+        right: 0;
+        width: 100%;
+        height: 4px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .prj-1{
+        background-size: 212% 135%;
+        background-position: 50% 105%;
+    }
+    .prj-2{
+     background-size: 212% 135%;
+     background-position: 52% 50%;
+ }
+ .prj-3{
+     background-size: 183% 116%;
+     background-position: 50% 5%;
+ }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-.hello{
-    font-size: 7rem;
-}
-.see-more {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-}
-.see-more:before {
-    bottom: -18px;
-    right: 0;
-    width: 100%;
-    height: 4px;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-.project-box h3 {
-    left: -89px;
-}
- .prj-1{
-    background-size: 212% 135%;
-    background-position: 50% 105%;
-}
-.prj-2{
- background-size: 212% 135%;
- background-position: 52% 50%;
-}
-.prj-3{
-background-size: 183% 116%;
+    .hello{
+        font-size: 7rem;
+    }
+    .see-more {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+    }
+    .see-more:before {
+        bottom: -18px;
+        right: 0;
+        width: 100%;
+        height: 4px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .project-box h3 {
+        left: -89px;
+    }
+    .prj-1{
+        background-size: 212% 135%;
+        background-position: 50% 105%;
+    }
+    .prj-2{
+     background-size: 212% 135%;
+     background-position: 52% 50%;
+ }
+ .prj-3{
+    background-size: 183% 116%;
     background-position: 50% 5%;
 }
 }
