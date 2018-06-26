@@ -629,17 +629,17 @@ section {
         transform: translate(-50%, 0);
     }
     .prj-1{
-        background-size: 212% 135%;
-        background-position: 50% 105%;
+        background-size: 160%;
+        background-position: bottom;
     }
     .prj-2{
-     background-size: 212% 135%;
-     background-position: 52% 50%;
- }
- .prj-3{
-     background-size: 183% 116%;
-     background-position: 50% 5%;
- }
+      background-size: 223%;
+      background-position: top;
+  }
+  .prj-3{
+      background-size: 170%;
+      background-position: top;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .hello{
@@ -663,15 +663,15 @@ section {
         left: -89px;
     }
     .prj-1{
-        background-size: 212% 135%;
-        background-position: 50% 105%;
+        background-size: 160%;
+        background-position: bottom;
     }
     .prj-2{
-     background-size: 212% 135%;
-     background-position: 52% 50%;
- }
- .prj-3{
-    background-size: 183% 116%;
-    background-position: 50% 5%;
-}
+      background-size: 223%;
+      background-position: top;
+  }
+  .prj-3{
+      background-size: 170%;
+      background-position: top;
+  }
 }
