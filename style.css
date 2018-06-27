@@ -10,7 +10,7 @@ html, body{
 
 div.nav-menu {
   position: fixed;
-  z-index: 4;
+  z-index: 11;
 }
 
 .button-menu-wrapper {
