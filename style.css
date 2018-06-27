@@ -63,7 +63,7 @@ div.nav-menu {
 .hn-social {
   position: fixed;
   z-index:10;
-  right: 10px;
+  left: 10px;
   bottom: 20px;
   margin: 0;
   padding: 0;
