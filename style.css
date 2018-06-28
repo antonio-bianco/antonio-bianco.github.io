@@ -14,6 +14,15 @@ div.nav-menu {
   position: fixed;
   z-index: 11;
 }
+.full-content{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 .button-menu-wrapper {
   cursor: pointer;
   width: 130px;
@@ -33,7 +42,6 @@ div.nav-menu {
   z-index: 102;
   text-align: right;
 }
-
 .semi-h_menu:after {
   content: '';
   position: absolute;
@@ -207,6 +215,46 @@ div.nav-menu {
 .txt{
   font-family: 'Kaushan Script', cursive;a
 }
+.see-button-wrapper{
+cursor: pointer;
+    width: 100px;
+    height: 49px;
+    text-align: center;
+    position: absolute;
+    bottom: -13px;
+    right: -80px;
+    color: white;
+    opacity:0;
+    overflow: hidden;
+}
+.bg-more{
+    width: 130px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    bottom: -75px;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: transform 450ms cubic-bezier(.77, 0, .175, 1);
+    transition: transform 450ms cubic-bezier(.77, 0, .175, 1);
+}
+.bg-more.bar-2 {
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+}
+.see-button-wrapper:hover .bar-1 {
+  -webkit-transform: translate3d(0, -155%, 0);
+  transform: translate3d(0, -155%, 0);
+  -webkit-transition: transform 450ms cubic-bezier(.77, 0, .175, 1);
+  transition: transform 450ms cubic-bezier(.77, 0, .175, 1)
+}
+.see-button-wrapper:hover .bar-2 {
+  -webkit-transform: translate3d(0, -2%, 0);
+  transform: translate3d(0, -2%, 0);
+  -webkit-transition: transform 450ms cubic-bezier(.77, 0, .175, 1);
+  transition: transform 450ms cubic-bezier(.77, 0, .175, 1)
+}
+
 .project-box h3{
     position: absolute;
     top: 40%;
@@ -278,132 +326,6 @@ div.nav-menu {
     position: relative;
     z-index: 9;
 }
-.full-content{
-    position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
-.page-blocks-trame {
-    position: absolute;
-    z-index: 2;
-    left: 0%;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background:trasparent;
-}
-
-.page-blocks-inner {
-    position: relative;
-    z-index: 2;
-    opacity: 1;
-    margin-top: 400px
-}
-
-.img-responsive {
-    width: 100%
-}
-
-.fullscreenblock {
-    position: relative;
-    overflow: hidden
-}
-
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 0;
-    padding-right: 0;
-    max-width: 1200px
-}
-
-.shape.circle.second {
-    top: -5%;
-    left: 27%
-}
-
-.shape.diamond.second {
-    top: 87%;
-    left: 77%;
-    animation: rotate-shape 25s infinite
-}
-
-.shape.circle.small.second {
-    top: 10%;
-    left: 5%
-}
-
-.shapes.one {
-    top: 0
-}
-
-.shapes {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    opacity: 1
-}
-
-.shapes .shape {
-    position: absolute;
-    top: 0;
-    left: 0
-}
-
-.shapes .shape.triangle.first {
-    top: 54%;
-    left: 90%;
-    animation: rotate-shape 90s infinite
-}
-
-.shapes .shape.triangle.thirt {
-    top: 6%;
-    left: 68%;
-    animation: rotate-shape 120s infinite
-}
-
-.shapes .shape.triangle.small.second {
-    width: 60px;
-    height: 60px;
-    top: 15%;
-    left: 14%;
-    animation: rotate-shape 140s infinite 1s
-}
-
-.shapes .shape.circle.small {
-    width: 50px;
-    height: 50px
-}
-
-.shape.diamond.big {
-    width: 80px;
-    height: 80px;
-    border: 1px solid #dfab58
-}
-
-.shapes .shape.diamond.first {
-    top: 67%;
-    left: 6%;
-    animation: rotate-shape 70s infinite 2s
-}
-
-.shapes .shape.diamond.small {
-    width: 30px;
-    height: 30px;
-    border: 1px solid #9a779a
-}
-
-.shapes .shape.triangle {
-    width: 120px;
-    height: 120px
-}
-
-
 .grid-hr .b, .grid-vr .b {
     background: rgba(255,255,255,0.05);
 }
@@ -476,133 +398,6 @@ div.nav-menu {
     position: relative;
     z-index: 9;
 }
-.full-content{
-    position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 250px;
-}
-.page-blocks-trame {
-    position: absolute;
-    z-index: 2;
-    left: 0%;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background:trasparent;
-}
-
-.page-blocks-inner {
-    position: relative;
-    z-index: 2;
-    opacity: 1;
-    margin-top: 400px
-}
-
-.img-responsive {
-    width: 100%
-}
-
-.fullscreenblock {
-    position: relative;
-    overflow: hidden
-}
-
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 0;
-    padding-right: 0;
-    max-width: 1200px
-}
-
-.shape.circle.second {
-    top: -5%;
-    left: 27%
-}
-
-.shape.diamond.second {
-    top: 87%;
-    left: 77%;
-    animation: rotate-shape 25s infinite
-}
-
-.shape.circle.small.second {
-    top: 10%;
-    left: 5%
-}
-
-.shapes.one {
-    top: 0
-}
-
-.shapes {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    opacity: 1
-}
-
-.shapes .shape {
-    position: absolute;
-    top: 0;
-    left: 0
-}
-
-.shapes .shape.triangle.first {
-    top: 54%;
-    left: 90%;
-    animation: rotate-shape 90s infinite
-}
-
-.shapes .shape.triangle.thirt {
-    top: 6%;
-    left: 68%;
-    animation: rotate-shape 120s infinite
-}
-
-.shapes .shape.triangle.small.second {
-    width: 60px;
-    height: 60px;
-    top: 15%;
-    left: 14%;
-    animation: rotate-shape 140s infinite 1s
-}
-
-.shapes .shape.circle.small {
-    width: 50px;
-    height: 50px
-}
-
-.shape.diamond.big {
-    width: 80px;
-    height: 80px;
-    border: 1px solid #dfab58
-}
-
-.shapes .shape.diamond.first {
-    top: 67%;
-    left: 6%;
-    animation: rotate-shape 70s infinite 2s
-}
-
-.shapes .shape.diamond.small {
-    width: 30px;
-    height: 30px;
-    border: 1px solid #9a779a
-}
-
-.shapes .shape.triangle {
-    width: 120px;
-    height: 120px
-}
-
-
 .grid-hr .b, .grid-vr .b {
     background: rgba(255,255,255,0.05);
 }
@@ -754,6 +549,10 @@ section {
     to {width: 100px;}
 }
 @keyframes see-more-b {
+    from {width: 0px;}
+    to {width: 100px;}
+}
+@keyframes see-more-hover {
     from {width: 0px;}
     to {width: 100px;}
 }
