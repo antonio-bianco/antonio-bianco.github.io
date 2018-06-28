@@ -522,19 +522,19 @@ section {
 }
 @-webkit-keyframes see-more {
     from {right: -80px; opacity:0;}
-    to {right: -30px; opacity:1;}
+    to {right: -20px; opacity:1;}
 }
 @-moz-keyframes see-more {
     from {right: -80px; opacity:0;}
-    to {right: -30px; opacity:1;}
+    to {right: -20px; opacity:1;}
 }
 @-o-keyframes see-more {
     from {right: -80px; opacity:0;}
-    to {right: -30px; opacity:1;}
+    to {right: -20px; opacity:1;}
 }
 @keyframes see-more {
     from {right: -80px; opacity:0;}
-    to {right: -30px; opacity:1;}
+    to {right: -20px; opacity:1;}
 }
 @-webkit-keyframes see-more-b {
     from {width: 0px;}
