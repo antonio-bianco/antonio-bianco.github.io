@@ -73,6 +73,8 @@ function animate() {
 };
 
 $(document).ready(function () {  
+   $('body > div.container.full-height > div.row.full-content > div.col.s12.m5.l5.white-text > div').addClass('image-animated'); 
+   $('body > div.container.full-height > div.row.full-content-resume > div:nth-child(3) > div').addClass('side-animated'); 
 
   $('#toggle').click(function() {
    $(this).toggleClass('active');
