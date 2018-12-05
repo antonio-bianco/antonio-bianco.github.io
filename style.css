@@ -908,7 +908,7 @@ section {
     top: -3rem;
 }
  .sidebar-mobile{
-  overflow-x: hidden;
+  overflow: hidden;
   width: 100%;
 }
 .sidebar-second {
@@ -925,7 +925,7 @@ section {
    top: 0rem;
  }
  .sidebar-mobile{
-  overflow-x: hidden;
+  overflow: hidden;
   width: 100%;
 }
 .resume-txt {
@@ -945,7 +945,7 @@ section {
    top: 0rem;
  }
  .sidebar-mobile{
-  overflow-x: hidden;
+  overflow: hidden;
   width: 100%;
 }
 .resume-txt {
@@ -968,7 +968,7 @@ section {
    top: 0rem;
  }
  .sidebar-mobile{
-  overflow-x: hidden;
+  overflow: hidden;
   width: 100%;
 }
 .resume-txt {
