@@ -1021,7 +1021,7 @@ section {
    top: 0rem;
  }
  .sidebar-mobile{
-  overflow-x: hidden;
+  overflow: hidden;
   width: 100%;
 }
 .resume-txt {
