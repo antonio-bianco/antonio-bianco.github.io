@@ -8,8 +8,8 @@ html, body{
  font-size: 15px;
 }
 video {
-    width: 100% !important;
-    height: auto !important;
+    width: 100%;
+    height: auto;
     right: 0;
     bottom: 0;
     top: 0;
@@ -919,6 +919,9 @@ section {
 .sidebar-second {
   width: 16.14rem;
 }
+  video {
+    width: 160% !important;
+}
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .image-resume{
@@ -935,6 +938,9 @@ section {
 }
 .sidebar-second {
   width: 16.14rem;
+}
+  video {
+    width: 150% !important;
 }
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -953,8 +959,14 @@ section {
 .sidebar-second {
   width: 16.14rem;
 }
+  video {
+    width: 150% !important;
+}
 }
 @media (min-width: 481px) and (max-width: 767px) {
+ video {
+    width: 240% !important;
+}
   .image-resume{
    height: 20rem;
    margin: 0 auto;
@@ -1005,6 +1017,9 @@ section {
 }
 }
 @media (min-width: 320px) and (max-width: 480px) {
+  video {
+    width: 300%;
+}
   .image-resume{
    height: 20rem;
    margin: 0 auto;
