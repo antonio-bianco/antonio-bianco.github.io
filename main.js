@@ -43,17 +43,17 @@ function init() {
   }
   
   var lights = [];
-lights[0] = new THREE.DirectionalLight( 0xffffff, 1 );
-lights[0].position.set( 1, 0, 0 );
-lights[1] = new THREE.DirectionalLight( 0x66ffff, 1 );
-lights[1].position.set( 0.75, 1, 0.5 );
-lights[2] = new THREE.DirectionalLight( 0x66ffff, 1 );
-lights[2].position.set( -0.75, -1, 0.5 );
-scene.add( lights[0] );
-scene.add( lights[1] );
-scene.add( lights[2] );
+  lights[0] = new THREE.DirectionalLight( 0xffffff, 1 );
+  lights[0].position.set( 1, 0, 0 );
+  lights[1] = new THREE.DirectionalLight( 0x66ffff, 1 );
+  lights[1].position.set( 0.75, 1, 0.5 );
+  lights[2] = new THREE.DirectionalLight( 0x66ffff, 1 );
+  lights[2].position.set( -0.75, -1, 0.5 );
+  scene.add( lights[0] );
+  scene.add( lights[1] );
+  scene.add( lights[2] );
   
-window.addEventListener('resize', onWindowResize, false);
+  window.addEventListener('resize', onWindowResize, false);
 
 };
 
@@ -73,6 +73,12 @@ function animate() {
 };
 
 $(document).ready(function () {  
+
+  $('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+ });
+
   var top = $('.section-a').offset().top;
   var topb = $('.section-b').offset().top;
   var topc = $('.section-c').offset().top;
@@ -126,4 +132,3 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
 gtag('config', 'UA-121611136-1');
-
