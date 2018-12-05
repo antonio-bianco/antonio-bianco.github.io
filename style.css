@@ -7,6 +7,16 @@ html, body{
  -moz-osx-font-smoothing: grayscale;
  font-size: 15px;
 }
+video {
+    width: 100% !important;
+    height: auto !important;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+}
 .full-content-resume {
   position: absolute;
   margin: auto;
