@@ -182,7 +182,12 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121611136-1"></script>
 
 <script type="text/javascript">
-
+  $(document).ready(function () {  
+    $( ".section-resume" ).load( "http://antoniobianco.me/resume.html .image-resume", function() { 
+     $('body > div.container.full-height > div.row.full-content > div.col.s12.m5.l5.white-text > div').addClass('image-animated'); 
+     $('body > div.container.full-height > div.row.full-content-resume > div:nth-child(3) > div').addClass('side-animated'); 
+   });
+  });
 </script>
 
 <script src="main.js"></script>
