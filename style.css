@@ -413,6 +413,7 @@ div.nav-menu {
   min-height: 100vh;
   position: relative;
   z-index: 9;
+  overflow-x:hidden;
 }
 .grid-hr .b, .grid-vr .b {
   background: rgba(255,255,255,0.05);
