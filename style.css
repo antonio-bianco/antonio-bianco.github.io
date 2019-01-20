@@ -329,7 +329,7 @@ div.nav-menu {
 .project-box h3{
   position: absolute;
   top: 40%;
-  left: -140px;
+  left: -88px;
   opacity:0;
   transform: translate(0%, -50%);color:white;
 }
