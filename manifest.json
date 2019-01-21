@@ -3,7 +3,7 @@
   "short_name": "Antonio Bianco",
   "theme_color": "#151515",
   "background_color": "#151515",
-  "display": "standalone",
+  "display": "browser",
   "orientation": "portrait",
   "Scope": "/",
   "start_url": "/index.html",
