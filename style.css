@@ -998,7 +998,16 @@ section {
   }
 }
 
+@media (min-width: 1281px) and (max-width: 2440px) {
+  .home_text {
+    font-size: 8rem;
+}
+}
+
 @media (min-width: 1281px) and (max-width: 1700px) {
+  .home_text {
+    font-size: 8rem;
+}
   .image-resume {
     height: 28rem;
     top: -3rem;
