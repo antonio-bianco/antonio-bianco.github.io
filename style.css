@@ -14,6 +14,9 @@ p{
 .container {
   width: 80%!important;
 }
+.homepage{
+  height: 590px;
+}
 .home_img {
   width: 75%;
   height: 570px;
@@ -1107,8 +1110,8 @@ video {
 }
 }
 @media (min-width: 481px) and (max-width: 767px) {
- video {
-  width: 240% !important;
+.homepage{
+  height: 340px;
 }
 .image-resume{
  height: 20rem;
@@ -1119,6 +1122,10 @@ video {
   overflow: hidden;
   width: 100%;
 }
+.mobile_hidden{
+    display: none;
+    visibility: hidden;
+  }
 .resume-txt {
   padding:5rem 0rem 1rem 0rem;
 }
@@ -1146,6 +1153,24 @@ video {
   left: 50%;
   transform: translate(-50%, 0);
 }
+.project-box h3 {
+  font-size: 2rem;
+}
+.homepage {
+    height: 340px;
+}
+.box-about {
+    top: 75%;
+}
+.home_img {
+    height: 340px;
+}
+.txt-box {
+    left: -8px;
+}
+.homepage{
+  height: 340px;
+}
 .prj-1{
   background-size: 210%;
   background-position: bottom;
@@ -1156,6 +1181,14 @@ video {
 }
 .prj-3{
   background-size: 190%;
+  background-position: top;
+}
+.prj-4{
+  background-size: 232%;
+  background-position: top;
+}
+.prj-5 {
+  background-size: 196%;
   background-position: top;
 }
 }
@@ -1218,8 +1251,19 @@ video {
   transform: translate(-50%, 0);
 }
 .project-box h3 {
-  left: -63px;
-  font-size: 2.5rem;
+  font-size: 2rem;
+}
+.homepage {
+    height: 340px;
+}
+.box-about {
+    top: 75%;
+}
+.home_img {
+    height: 340px;
+}
+.txt-box {
+    left: -8px;
 }
 .prj-1{
   background-size: 241%;
@@ -1235,6 +1279,10 @@ video {
 }
 .prj-4{
   background-size: 292%;
+  background-position: top;
+}
+.prj-5 {
+  background-size: 263%;
   background-position: top;
 }
 }
