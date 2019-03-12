@@ -13,12 +13,12 @@ $(document).ready(function () {
   });
 
 
-var top = $('.section-a').offset().top;
+/*var top = $('.section-a').offset().top;
 var topb = $('.section-b').offset().top;
 var topc = $('.section-c').offset().top;
 var topd = $('.section-d').offset().top;
 
-$(window).scroll(function (event) {
+ $(window).scroll(function (event) {
 
   var y = $(this).scrollTop();
 
@@ -73,8 +73,9 @@ $(window).scroll(function (event) {
    $('div.container.full-height.section-d > div > div > div > h3').removeClass('text-animated');
  }
 
+}); */
 });
-});
+
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
