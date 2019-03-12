@@ -73,7 +73,7 @@ var topd = $('.section-d').offset().top;
    $('div.container.full-height.section-d > div > div > div > h3').removeClass('text-animated');
  }
 
-}); */
+});*/
 });
 
 window.dataLayer = window.dataLayer || [];
