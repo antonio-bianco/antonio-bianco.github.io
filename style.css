@@ -695,27 +695,27 @@ section {
 }
 .prj-1{
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/440ba064774909.5adddec627e93.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-position: bottom;
 }
 .prj-2{
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/3e5da860125421.5a3ccd13ae551.jpg);
-  background-size: 110%;
+  background-size: cover;
   background-position: top;
 }
 .prj-3{
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/c5dd0659142007.5a16ab1f18935.png);
-  background-size: 100%;
+  background-size: cover;
   background-position: top;
 }
 .prj-4{
   background-image: url(img/website-concept.jpg);
-  background-size: 103%;
+  background-size: cover;
   background-position: top;
 }
 .prj-5{
   background-image: url(img/bg_project.png);
-  background-size: 103%;
+  background-size: cover;
   background-position: top;
 }
 .overlay {
@@ -1105,14 +1105,20 @@ video {
 .sidebar-second {
   width: 16.14rem;
 }
-video {
-  width: 150% !important;
+.homepage {
+    height: 340px;
+}
+.box-about {
+    top: 75%;
+}
+.home_img {
+    height: 340px;
+}
+.txt-box {
+    left: -8px;
 }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-.homepage{
-  height: 340px;
-}
 .image-resume{
  height: 20rem;
  margin: 0 auto;
@@ -1167,29 +1173,6 @@ video {
 }
 .txt-box {
     left: -8px;
-}
-.homepage{
-  height: 340px;
-}
-.prj-1{
-  background-size: 210%;
-  background-position: bottom;
-}
-.prj-2{
-  background-size: 273%;
-  background-position: top;
-}
-.prj-3{
-  background-size: 190%;
-  background-position: top;
-}
-.prj-4{
-  background-size: 232%;
-  background-position: top;
-}
-.prj-5 {
-  background-size: 196%;
-  background-position: top;
 }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -1264,25 +1247,5 @@ video {
 }
 .txt-box {
     left: -8px;
-}
-.prj-1{
-  background-size: 241%;
-  background-position: bottom;
-}
-.prj-2{
-  background-size: 293%;
-  background-position: top;
-}
-.prj-3{
-  background-size: 250%;
-  background-position: top;
-}
-.prj-4{
-  background-size: 292%;
-  background-position: top;
-}
-.prj-5 {
-  background-size: 263%;
-  background-position: top;
 }
 }
