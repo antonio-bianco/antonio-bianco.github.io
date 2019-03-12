@@ -14,8 +14,13 @@ p{
 .container {
     width: 80%!important;
 }
-.home_img{
+.home_img {
     width: 75%;
+    height: 570px;
+    background: url(https://scontent-dub4-1.cdninstagram.com/vp/a9dc356……47453873_8211671837775870307_n.jpg);
+    background-size: 158%;
+    background-position: 50% 0%;
+    margin: 0 auto;
 }
 .home_text{
   font-size: 6rem;
