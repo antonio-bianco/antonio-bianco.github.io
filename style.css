@@ -20,7 +20,7 @@ p{
 .home_img {
   width: 75%;
   height: 570px;
-  background: url(https://scontent-dub4-1.cdninstagram.com/vp/c925dab3b47d402fd1c5242d4fd14819/5DED591C/t51.2885-15/sh0.08/e35/s640x640/50605890_234352347453873_8211671837775870307_n.jpg?_nc_ht=scontent-dub4-1.cdninstagram.com);
+  background: url(img/home_text.jpg);
   background-size: 158%;
   background-position: 50% 0%;
   margin: 0 auto;
@@ -31,7 +31,7 @@ p{
   transition: all 500ms ease;
 }
 .home_img:hover {
-  background: url(https://scontent-dub4-1.cdninstagram.com/vp/454676691adc3a18607606164d4cce11/5DD4CF5C/t51.2885-15/sh0.08/e35/s640x640/50312519_630767987339779_7703233298749370653_n.jpg?_nc_ht=scontent-dub4-1.cdninstagram.com);
+  background: url(img/home_text2.jpg);
   background-size: 158%;
   background-position: 50% 0%;
   margin: 0 auto;
@@ -1235,6 +1235,7 @@ video {
 }
 .project-box h3 {
   font-size: 2rem;
+  width:90%;
 }
 .homepage {
     height: 340px;
